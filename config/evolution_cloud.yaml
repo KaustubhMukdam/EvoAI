@@ -1,0 +1,22 @@
+evolution:
+  archive_size: 50
+  population_size: 5
+  mutation_rate: 0.1
+  selection_method: "top_k"
+
+evaluation:
+  subset_sizes: [10, 40, 100]
+  promotion_threshold: 0.4
+  max_evaluations_per_generation: 5
+
+rewards:
+  alpha_tests_passed: 0.6
+  beta_constitution_score: 0.3
+  gamma_diff_complexity: 0.1
+
+safety:
+  sandbox_enabled: true
+  max_execution_time: 300
+  resource_limits:
+    cpu_percent: 90
+    memory_mb: 12288

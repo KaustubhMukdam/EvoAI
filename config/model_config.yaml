@@ -1,0 +1,18 @@
+model:
+  name: "Qwen/Qwen2.5-Coder-1.5B"
+  quantization: "4bit"
+  max_length: 4096
+  temperature: 0.7
+  top_p: 0.9
+  local_path: "./models/qwen_base/"
+
+hardware:
+  gpu_memory_fraction: 0.9
+  cpu_cores: 12
+  max_ram_gb: 28
+  
+constitutional:
+  num_principles: 10
+  critique_enabled: true
+  revision_enabled: true
+  max_revisions: 3

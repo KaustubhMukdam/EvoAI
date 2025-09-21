@@ -1,0 +1,26 @@
+Current Work
+https://www.perplexity.ai/search/how-do-i-download-qwen-2-5-wit-_PekDH3oSmKLOWqWjAY3Ow
+We have downloaded the small model (Qwen 2.5: 1.5B)
+
+
+
+Future Work on EDI
+
+Phase-2.1
+
+1. SWE Benchmark Questions (100 questions around) (coding related only)
+
+2. Percentage of Easy, medium and hard questions should be almost similar
+
+3. Run all the questions at the same time with max_iter = 1
+
+Phase-2.2: 
+1. Muliple iterations
+
+2. Archieve the iteration
+
+3. Reinforcement Learning (Checking the code with the SWE bench answer and check accuracy (Time and Space Complexity)
+
+4. Update the source code in file
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+model:
+  name: "Qwen/Qwen2.5-Coder-1.5B"
+  device: "cpu"
+  quantization: "int8"         # CPU-friendly
+  max_length: 2048
+  temperature: 0.7
+  top_p: 0.9
+  cache_dir: "./models/qwen_cache"
+
+constitutional:
+  critique_enabled: true
+  revision_enabled: true
+  max_revisions: 2
